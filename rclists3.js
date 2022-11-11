@@ -1701,13 +1701,13 @@ let searchh2 = document.querySelectorAll(".searchh2")[0];
       let resp =  event.target.value.replace(/\s/g,'')
       //    console.log('mm' + resp)
          console.log(searchh2.value);
-         document.querySelector(".update").textContent =  "0";
+         document.querySelector(".update").textContent = "0/1683";
          document.querySelector(".please_text").textContent = "Your id is not found";
          //rc2.style.overflow = "scroll"
          rc2.innerHTML = "";
       let searchText2 = event.target.value.toLowerCase();
       if (searchText2.length === 0) {
-         document.querySelector(".update").textContent =  "0";
+         document.querySelector(".update").textContent =  "0/1683";
          document.querySelector(".please_text").textContent = "Please Search IDS";
         return;
       }
