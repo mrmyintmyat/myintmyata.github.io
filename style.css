@@ -1,0 +1,282 @@
+.logo{
+    width: 48px;
+height: 48px;
+
+background:  #D9D9D9;
+}
+
+.nav-item{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    margin-left: 30px;
+}
+
+.nav-item:first-child{color: #EF5D6D;}
+
+.navbar-brand{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 42px;
+    
+    /* bl */
+    
+    color: #000000;
+      
+}
+
+.contact{
+    width: 140px;
+height: 44px;
+text-align: center;
+padding: 10px;
+color: white;
+/* red */
+
+background: #EF5D6D;
+border-radius: 22px;
+}
+
+.Hello-Im{
+    width: 394px;
+height: 111px;
+
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 48px;
+text-transform: capitalize;
+
+/* bl */
+
+color: #000000;
+
+}
+
+.mma{
+    width: 394px;
+height: 111px;
+left: 135px;
+top: 245px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 800;
+font-size: 50px;
+line-height: 60px;
+text-transform: capitalize;
+
+color: #EF5D6D;
+}
+.A-dev{
+    width: 312px;
+height: 30px;
+left: 135px;
+top: 369px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 600;
+font-size: 25px;
+line-height: 30px;
+/* identical to box height */
+
+text-transform: capitalize;
+
+color: #000000;
+}
+
+.Developer, .Myanmar{
+    color: #6E50EC;
+}
+
+.Home-Lorem{
+    width: 400px;
+height: 47px;
+left: 135px;
+top: 412px;
+
+/* body */
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 22px;
+
+/* bodytextcolour */
+
+color: #8F8DA2;
+
+}
+
+.home-btn{
+    width: 156px;
+height: 55px;
+left: 135px;
+top: 484px;
+
+/* red */
+
+background: #EF5D6D;
+border-radius: 100px;
+font-family: 'Lato';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+
+}
+
+.more-about-me{
+    width: 92px;
+    height: 16px;
+    left: 10px;
+    
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+    /* identical to box height */
+    
+    
+    color: #000000;
+    
+}
+
+.home-circle{
+    width: 300px;
+height: 300px;
+
+
+/* red */
+
+background: #EF5D6D;
+}
+
+.img-of-home{
+    position: absolute;
+    width: 218px;
+height: 326px;
+margin-bottom: 100px;
+
+
+border-radius: 0px 0px 84px 97px;
+}
+
+.img-of-about{
+  max-width: auto;
+height: 306px;
+left: 233px;
+top: 722px;
+
+background: url(.jpg), #D9D9D9;
+box-shadow: 5px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 26px;
+}
+
+.ABOUTUS{
+    width: 213px;
+height: 52px;
+left: 848px;
+top: 788px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 700;
+font-size: 43px;
+line-height: 52px;
+/* identical to box height */
+
+text-transform: uppercase;
+
+/* red */
+
+color: #EF5D6D;
+
+}
+
+.Imadev{
+    width: 176px;
+height: 21px;
+left: 785px;
+top: 875px;
+
+font-family: 'Azeret Mono';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 21px;
+/* identical to box height */
+
+
+/* f */
+
+color: #6E50EC;
+}
+
+.title-of-about{
+    width: 365px;
+height: 66px;
+left: 785px;
+top: 905px;
+
+font-family: 'Azeret Mono boild';
+font-style: normal;
+font-weight: 700;
+font-size: 28px;
+line-height: 33px;
+
+color: #000000;
+
+}
+
+.body-text-about{
+    width: 385px;
+    height: 73px;
+    left: 785px;
+    top: 981px;
+    
+    /* body */
+    
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    
+    /* bodytextcolour */
+    
+    color: #8F8DA2;
+    
+}
+
+.body-text-about-2{
+    width: 370px;
+height: 46px;
+left: 785px;
+top: 1064px;
+
+/* body */
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+
+/* bodytextcolour */
+
+color: #8F8DA2;
+}
