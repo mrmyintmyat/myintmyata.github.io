@@ -1,3 +1,5 @@
+
+
 .logo{
     width: 48px;
 height: 48px;
@@ -17,7 +19,7 @@ background:  #D9D9D9;
 .nav-item:first-child{color: #EF5D6D;}
 
 .navbar-brand{
-    font-family: 'Inter';
+    font-family: 'Lato';
     font-style: normal;
     font-weight: bold;
     font-size: 35px;
@@ -176,12 +178,13 @@ border-radius: 0px 0px 84px 97px;
 }
 
 .img-of-about{
-  max-width: auto;
-height: 306px;
+ 
+height: 300px;
+
 left: 233px;
 top: 722px;
 
-background: url(.jpg), #D9D9D9;
+
 box-shadow: 5px 4px 4px rgba(0, 0, 0, 0.25);
 border-radius: 26px;
 }
@@ -245,8 +248,7 @@ color: #000000;
 .body-text-about{
     width: 385px;
     height: 73px;
-    left: 785px;
-    top: 981px;
+
     
     /* body */
     
@@ -263,10 +265,10 @@ color: #000000;
 }
 
 .body-text-about-2{
+
     width: 370px;
 height: 46px;
-left: 785px;
-top: 1064px;
+
 
 /* body */
 
@@ -280,3 +282,33 @@ line-height: 22px;
 
 color: #8F8DA2;
 }
+.home-all{
+    
+    background: #F2F5F9;
+    max-width: 100%;
+}
+.h-of-hometags{
+  
+    height: 700px;
+}
+
+@media (max-width: 992px){
+    .h-of-hometags{
+        margin-top: 50px;
+        height: 350px;
+    }
+}
+
+.h-of-abouttags{
+   
+    height: 500px;
+}
+
+@media (max-width: 992px){
+    .h-of-abouttags{
+        margin-top: 50px;
+        height: 350px;
+    }
+}
+
+
