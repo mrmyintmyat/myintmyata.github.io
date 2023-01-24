@@ -1,10 +1,7 @@
-body{
-    height: 4000px;
-}
 
 .logo{
-    width: 48px;
-height: 48px;
+    width: 40px;
+height: 40px;
 
 background:  #D9D9D9;
 }
@@ -45,6 +42,10 @@ color: rgb(255, 255, 255);
 
 background: #EF5D6D;;
 border-radius: 22px;
+}
+
+.hello-margin{
+    padding-left: 8%;
 }
 
 .Hello-Im{
@@ -165,8 +166,8 @@ color: #FFFFFF;
 }
 
 .home-circle{
-    width: 300px;
-height: 300px;
+    width: 400px;
+height: 400px;
 
 
 /* red */
@@ -174,10 +175,15 @@ height: 300px;
 background: #EF5D6D;
 }
 
+.main-img{
+    background: url("main.png") no-repeat center;
+    background-size: cover;
+}
+
 .img-of-home{
     position: absolute;
-    width: 218px;
-height: 326px;
+    width: 280px;
+height: 426px;
 margin-bottom: 800px;
 
 
@@ -350,7 +356,7 @@ color: #000000;
 @media (max-width: 992px){
     .h-of-hometags{
         margin-top: 50px;
-        height: 350px;
+        height: 380px;
     }
 }
 
@@ -639,8 +645,7 @@ border-radius: 11px;
     }
 
     .sed-title{
-        width: 253px;
-height: 42px;
+       
 left: 879px;
 top: 2758px;
 
@@ -676,4 +681,99 @@ background: #EF5D6D;
 border-radius: 6px;
 border: 0px;
 color: #FFFFFF;
+transition: all 0.6s;
+    }
+.sum-sed:hover{
+   /* background-color: #6E50EC; */
+   box-shadow:0px 4px 4px #f0e6e6;
+   /* color: #000000; */
+}
+    .bodytext-last{
+        
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        /* or 162% */
+        
+        
+        /* bodytextcolour */
+        
+        color: #8F8DA2;
+    }
+
+    .fb{
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 700;
+font-size: 13px;
+line-height: 26px;
+/* identical to box height, or 200% */
+
+
+color: #000000;
+    }
+
+    #bdtx-sev{
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+/* or 162% */
+
+
+color: rgba(143, 141, 162, 0.64);
+    }
+
+    .sev-title-last{
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 26px;
+/* identical to box height, or 144% */
+
+letter-spacing: 0.03em;
+
+color: rgba(0, 0, 0, 0.75);
+    }
+
+    .by-who{
+        width: 202px;
+height: 20px;
+left: 184px;
+top: 4072px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 74%;
+line-height: 26px;
+/* or 186% */
+
+
+color: rgba(143, 141, 162, 0.64);
+    }
+
+    .Term{
+        width: 117px;
+height: 20px;
+left: 964px;
+top: 4072px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 74%;
+line-height: 26px;
+/* or 186% */
+
+
+color: rgba(143, 141, 162, 0.64);
+
     }
