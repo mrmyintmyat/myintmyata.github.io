@@ -15,13 +15,14 @@
 <body style="width: 100%;">
 
     <div style="background: #F2F5F9;" class=" fixed-top">
-        <nav style="background: #F2F5F9;" class="navbar container navbar-expand-lg bg-body-tertiary">
+        <nav style="background: #F2F5F9;" class="navbar container navbar-expand-lg ">
             <div style="background: #F2F5F9;" class="w-100 px-3">
                 <a class="navbar-brand" href="#">
-                    <img class="logo rounded-circle"
-                        src="https://img.freepik.com/premium-photo/young-handsome-man-with-beard-isolated-keeping-arms-crossed-frontal-position_1368-132662.jpg?w=2000"
-                        alt="">
-                    <span class="Whomi d-none d-lg-inline">Who<span style=" color: #EF5D6D;">mI</span></span>
+                    <div class="Whomi d-inline">
+                        <img class="logo rounded-circle"
+                            src="https://img.freepik.com/premium-photo/young-handsome-man-with-beard-isolated-keeping-arms-crossed-frontal-position_1368-132662.jpg?w=2000"
+                            alt=""><span class="ms-2">Who</span><span style=" color: #EF5D6D;">mI</span>
+                    </div>
                 </a>
                 <button class="navbar-toggler float-end" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
@@ -54,8 +55,8 @@
     </div>
     <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%"
         data-bs-smooth-scroll="true" class="scrollspy-example rounded-2 p-3" tabindex="0">
-        <div id="scrollspyHeading1" class="home-all  d-flex  flex-column flex-lg-row">
-            <div class=" h-of-hometags d-flex align-items-center d-flex justify-content-center col-12 col-lg-6">
+        <div id="scrollspyHeading1" class="home-all row mx-1 d-flex flex-column flex-lg-row">
+            <div class=" h-of-hometags hello-margin d-flex align-items-center col-12 col-lg-6">
                 <div>
                     <h4 class="Hello">
                         <span class="Hello-Im"> Hello, I'm</span><br>
@@ -71,25 +72,25 @@
                     <span class="More-about-me ms-lg-5 ms-3">More About Me</span>
                 </div>
             </div>
-            <div id="" style="  position: relative;"
-                class="h-of-hometags  d-flex align-items-center d-flex justify-content-center justify-conn col-12 col-lg-6">
-                <div style="position: absolute;" class="home-circle  d-flex justify-content-center rounded-circle">
+            <div id=""
+                class="h-of-hometags main-img d-flex align-items-center d-flex justify-content-center justify-conn col-12 col-lg-6">
+                <!-- <div style="position: absolute;" class="home-circle  d-flex justify-content-center rounded-circle">
 
-                    <img class="img-of-home " src="standing-man-644x1024.png" alt="">
+                    <img class="img-of-home " src="main.png" alt="">
 
-                </div>
+                </div> -->
             </div>
         </div>
         <div id="scrollspyHeading2" class="d-flex bg-sucess flex-column flex-lg-row py-5">
             <div id=""
                 class="h-of-abouttags d-flex align-items-start d-flex justify-content-center col-12 col-lg-6 ">
 
-                <img class="img-of-about col-12 col-lg-7 col-md-6  col-sm-8 me-lg-3 ms-lg-5"
+                <img class="img-of-about col-12 col-lg-8 col-md-6  col-sm-8 me-lg-3 ms-lg-5"
                     src="https://themetum.com/koyta/koyta-two/assets/img/02_koyta_img/about-me.jpg" alt="">
 
             </div>
             <div id=""
-                class="d-flex h-of-abouttags d-flex align-items-lg-center d-flex justify-content-start justify-content-lg-center flex-column col-12 col-lg-6 ">
+                class="d-flex h-of-abouttags d-flex align-items-lg-center d-flex justify-content-start justify-content-lg-center flex-column ms-lg-0 ms-sm-5 col-sm-10 col-12 col-lg-6 ">
                 <div class="w-100">
                     <h4 id="" class="">
                         <span class="ABOUTUS">ABOUT</span>
@@ -116,109 +117,125 @@
                 </div>
             </div>
         </div>
-        <h4 id="scrollspyHeading3" class=" text-center mb-3">
-            <span class="ABOUTUS MYSEV">MY SERVICES</span>
-        </h4>
-        <div class="row  py-4 d-flex justify-content-center">
-            <div class="col-lg-4 col-sm-6 col-12">
-                <div class="card div-of-sev px-3 pt-2 mb-3">
-                    <div class="card-body d-flex flex-row">
-                        <div>
-                            <img class="img-of-sev"
-                                src="https://fiverr-res.cloudinary.com/image/upload/f_auto,q_auto/v1/attachments/generic_asset/asset/767bc10a0c44b0a67be1a94aea270205-1609336032121/website%20development-min.jpg"
-                                alt="">
-                        </div>
-                        <div class="ms-4">
+        <div id="scrollspyHeading3">
+            <h4 class=" text-center mb-3">
+                <span class="ABOUTUS MYSEV">MY SERVICES</span>
+            </h4>
+            <div class="row  py-4 d-flex justify-content-center">
+                <div class="col-lg-5 col-sm-6 col-12">
+                    <div class="card div-of-sev px-3 pt-2 mb-3">
+                        <div class="card-body d-flex flex-row">
                             <div>
-                                <h3 class="titletext-of-sev">Website <span class="title-last">Development</span> </h3>
+                                <img class="img-of-sev"
+                                    src="https://fiverr-res.cloudinary.com/image/upload/f_auto,q_auto/v1/attachments/generic_asset/asset/767bc10a0c44b0a67be1a94aea270205-1609336032121/website%20development-min.jpg"
+                                    alt="">
                             </div>
-                            <div class="bodytext-of-sev mt-2">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, amet quas velit
-                                aliquam laboriosam nesciunt?
+                            <div class="ms-4">
+                                <div>
+                                    <h3 class="titletext-of-sev w-100">Website <span
+                                            class="title-last">Development</span>
+                                    </h3>
+                                </div>
+                                <div class="bodytext-of-sev mt-2">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, amet quas velit
+                                    aliquam laboriosam nesciunt? <p class="d-none d-lg-block"> Lorem ipsum dolor sit
+                                        amet.
+                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit
+                                        amet. Lorem ipsum dolor sit amet.</p>
+                                </div>
+                                <div class="read-more float-end mt-4">read more</div>
                             </div>
-                            <div class="read-more float-end mt-4">read more</div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-lg-4 col-sm-6 col-12">
-                <div class="card div-of-sev px-3 pt-2 mb-3">
-                    <div class="card-body d-flex flex-row">
-                        <div>
-                            <img class="img-of-sev"
-                                src="https://cdn.searchenginejournal.com/wp-content/uploads/2020/01/which-web-design-platform-is-right-for-you-5e4d59fb941b9.png"
-                                alt="">
-                        </div>
-                        <div class="ms-4">
+                <div class="col-lg-5 col-sm-6 col-12">
+                    <div class="card div-of-sev px-3 pt-2 mb-3">
+                        <div class="card-body d-flex flex-row">
                             <div>
-                                <h3 class="titletext-of-sev">Website <span class="title-last">Design</span> </h3>
+                                <img class="img-of-sev"
+                                    src="https://cdn.searchenginejournal.com/wp-content/uploads/2020/01/which-web-design-platform-is-right-for-you-5e4d59fb941b9.png"
+                                    alt="">
                             </div>
-                            <div class="bodytext-of-sev mt-2">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, amet quas velit
-                                aliquam laboriosam nesciunt?
+                            <div class="ms-4">
+                                <div>
+                                    <h3 class="titletext-of-sev">Website <span class="title-last">Design</span> </h3>
+                                </div>
+                                <div class="bodytext-of-sev mt-2">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, amet quas velit
+                                    aliquam laboriosam nesciunt? <p class="d-none d-lg-block"> Lorem ipsum dolor sit
+                                        amet.
+                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit
+                                        amet. Lorem ipsum dolor sit amet.</p>
+                                </div>
+                                <div class="read-more float-end mt-4">read more</div>
                             </div>
-                            <div class="read-more float-end mt-4">read more</div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="w-100 d-none d-md-block bg-black"></div>
-            <div class="col-lg-4 col-sm-6 col-12">
-                <div class="card div-of-sev px-3 pt-2 mb-3">
-                    <div class="card-body d-flex flex-row">
-                        <div>
-                            <img class="img-of-sev"
-                                src="https://www.arenaparkstreet.com/blog/wp-content/uploads/2021/05/Game-Development.png"
-                                alt="">
-                        </div>
-                        <div class="ms-4">
+                <div class="w-100 d-none d-md-block bg-black"></div>
+                <div class="col-lg-5 col-sm-6 col-12">
+                    <div class="card div-of-sev px-3 pt-2 mb-3">
+                        <div class="card-body d-flex flex-row">
                             <div>
-                                <h3 class="titletext-of-sev">Game <span class="title-last">Development</span>
-                                </h3>
+                                <img class="img-of-sev"
+                                    src="https://www.arenaparkstreet.com/blog/wp-content/uploads/2021/05/Game-Development.png"
+                                    alt="">
                             </div>
-                            <div class="bodytext-of-sev mt-2">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, amet quas velit
-                                aliquam laboriosam nesciunt?
+                            <div class="ms-4">
+                                <div>
+                                    <h3 class="titletext-of-sev">Game <span class="title-last">Development</span>
+                                    </h3>
+                                </div>
+                                <div class="bodytext-of-sev mt-2">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, amet quas velit
+                                    aliquam laboriosam nesciunt? <p class="d-none d-lg-block"> Lorem ipsum dolor sit
+                                        amet.
+                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit
+                                        amet. Lorem ipsum dolor sit amet.</p>
+                                </div>
+                                <div class="read-more float-end mt-4">read more</div>
                             </div>
-                            <div class="read-more float-end mt-4">read more</div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-lg-4 col-sm-6 col-12">
-                <div class="card div-of-sev px-3 pt-2 mb-3">
-                    <div class="card-body d-flex flex-row">
-                        <div>
-                            <img class="img-of-sev"
-                                src="https://fiverr-res.cloudinary.com/image/upload/f_auto,q_auto/v1/attachments/generic_asset/asset/767bc10a0c44b0a67be1a94aea270205-1609336032121/website%20development-min.jpg"
-                                alt="">
-                        </div>
-                        <div class="ms-4">
+                <div class="col-lg-5 col-sm-6 col-12">
+                    <div class="card div-of-sev px-3 pt-2 mb-3">
+                        <div class="card-body d-flex flex-row">
                             <div>
-                                <h3 class="titletext-of-sev">Website <span class="title-last">Development</span>
-                                </h3>
+                                <img class="img-of-sev"
+                                    src="https://fiverr-res.cloudinary.com/image/upload/f_auto,q_auto/v1/attachments/generic_asset/asset/767bc10a0c44b0a67be1a94aea270205-1609336032121/website%20development-min.jpg"
+                                    alt="">
                             </div>
-                            <div class="bodytext-of-sev mt-2">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, amet quas velit
-                                aliquam laboriosam nesciunt?
+                            <div class="ms-4">
+                                <div>
+                                    <h3 class="titletext-of-sev">Website <span class="title-last">Development</span>
+                                    </h3>
+                                </div>
+                                <div class="bodytext-of-sev mt-2">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, amet quas velit
+                                    aliquam laboriosam nesciunt? <p class="d-none d-lg-block"> Lorem ipsum dolor sit
+                                        amet.
+                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit
+                                        amet. Lorem ipsum dolor sit amet.</p>
+                                </div>
+                                <div class="read-more float-end mt-4">read more</div>
                             </div>
-                            <div class="read-more float-end mt-4">read more</div>
                         </div>
                     </div>
                 </div>
-            </div>
 
+            </div>
         </div>
         <div id="scrollspyHeading4" class="d-flex bg-sucess flex-column flex-lg-row py-5">
             <div id=""
                 class="h-of-abouttags d-flex align-items-start  d-flex justify-content-center col-12 col-lg-6 ">
 
-                <img class="img-of-about col-12 col-lg-7 col-md-6  col-sm-8 me-lg-3 ms-lg-5"
+                <img class="img-of-about col-12 col-lg-8 col-md-6  col-sm-8 me-lg-3 ms-lg-5"
                     src="https://themetum.com/koyta/koyta-two/assets/img/02_koyta_img/about-me.jpg" alt="">
 
             </div>
             <div id=""
-                class="d-flex h-of-abouttags d-flex align-items-lg-center d-flex justify-content-start justify-content-lg-center flex-column col-12 col-lg-6 ">
+                class="d-flex h-of-abouttags d-flex align-items-lg-center d-flex justify-content-start justify-content-lg-center flex-column  ms-lg-0 ms-sm-5 col-sm-10 col-12 col-lg-6 ">
                 <div class="w-100">
                     <h4 id="" class="">
                         <span class="ABOUTUS">SKILLS</span>
@@ -290,7 +307,7 @@
                         <div>
                             <div class="d-flex flex-row mt-4 d-flex align-items-center">
                                 <span class="name">Address</span>
-                                <span class="value ms-3">No.(12/14),4 Floor,Myanandar Street,3 Quarters,Yangon</span>
+                                <span class="value ms-3">No.(6/14),4 Floor,Myanandar Street,3 Quarters,Yangon</span>
                             </div>
                             <div class="d-flex flex-row mt-2 d-flex align-items-center">
                                 <span class="name">Mobile</span>
@@ -312,10 +329,10 @@
                         class="col-4 sed-bg p-3 d-flex flex-column d-flex justify-content-center d-flex align-items-center">
                         <div>
                             <div>
-                               <h4 class="sed-title">
-                                  Send Message
-                               </h4>
-                            </div>    
+                                <h4 class="sed-title">
+                                    Send Message
+                                </h4>
+                            </div>
                             <div class="mt-3">
                                 <input type="text" class="sed-name ps-3" placeholder="Your Full Name*">
                             </div>
@@ -327,6 +344,108 @@
                             </div>
                             <div class="mt-3">
                                 <button class="sum-sed" type="submit">Submit Message</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div style="background: #F2F5F9;" class="col-12 mt-5  d-flex flex-sm-row flex-column">
+                <!-- d-flex flex-sm-row flex-column -->
+                <div class="d-flex flex-column">
+                    <div class="d-flex flex-sm-row flex-column">
+
+                        <div
+                            class="col-sm-5 col-12  d-flex flex-column d-flex justify-content-center d-flex align-items-center">
+                            <div class="d-flex flex-column d-flex justify-content-center col-lg-7 col-10">
+                                <a class="navbar-brand" href="#">
+                                    <div class="Whomi d-inline">
+                                        <img class="logo rounded-circle"
+                                            src="https://img.freepik.com/premium-photo/young-handsome-man-with-beard-isolated-keeping-arms-crossed-frontal-position_1368-132662.jpg?w=2000"
+                                            alt=""><span class="ms-2">Who</span><span
+                                            style=" color: #EF5D6D;">mI</span>
+                                    </div>
+                                </a>
+                                <span class="bodytext-last mt-2">
+                                    Lorem ipsum dolor sit amet consectetur. Mauris facilisi malesuada blandit felis.
+                                    Viverra
+                                    gravida
+                                    sed amet facilisi. Duis ac nulla id suspendisse metus diam mi pellentesque eleifend.
+                                    Tincidunt
+                                    tellus
+                                </span>
+                                <div class="col-12 d-flex flex-row mt-3">
+                                    <a href="https://www.facebook.com/profile.php?id=100046213381464" target="_blank"
+                                        class="text-decoration-none">
+                                        <span class="fb flex-row">
+                                            <i style="color: #6E50EC;" class="fa-brands fa-facebook-f"></i>
+                                            Fb.
+                                        </span>
+                                    </a>
+                                    <a href="" class="text-decoration-none">
+                                        <span class="fb ms-2 flex-row">
+                                            <i style="color: #6E50EC;" class="fa-brands fa-twitter"></i>
+                                            Tw.
+                                        </span>
+                                    </a>
+                                    <a href="" class="text-decoration-none">
+                                        <span class="fb ms-2 flex-row">
+                                            <i style="color: #6E50EC;" class="fa-brands fa-instagram"></i>
+                                            In.
+                                        </span>
+                                    </a>
+                                    <a href="" class="text-decoration-none">
+                                        <span class="fb ms-2 flex-row">
+                                            <i style="color: #6E50EC;" class="fa-solid fa-envelope"></i>
+                                            Gm.
+                                        </span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-flex flex-row col-sm-4  d-flex justify-content-center">
+                            <div class="col-sm-6 mt-lg-0 mt-3 col-5">
+                                <div class="col-10">
+                                    <h4 class="sev-title-last">Service</h4>
+                                    <div class="d-flex flex-column">
+                                        <a class="text-decoration-none" href="" id="bdtx-sev"> <span>Web
+                                                Design</span>
+                                        </a>
+                                        <a class="text-decoration-none" href="" id="bdtx-sev">
+                                            <span>Development</span></a>
+                                        <a class="text-decoration-none" href="" id="bdtx-sev">
+                                            <span>Photogaphy</span></a>
+                                        <a class="text-decoration-none" href="" id="bdtx-sev"> <span>Web
+                                                Design</span></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 mt-lg-0 mt-3 col-5  d-flex justify-content-center ">
+                                <div class="col-10">
+                                    <h4 class="sev-title-last">Quick Links</h4>
+                                    <div class="d-flex flex-column">
+                                        <a class="text-decoration-none" href="" id="bdtx-sev">
+                                            <span>About</span> </a>
+                                        <a class="text-decoration-none" href="" id="bdtx-sev">
+                                            <span>Service</span></a>
+                                        <a class="text-decoration-none" href="" id="bdtx-sev">
+                                            <span>Skills</span></a>
+                                        <a class="text-decoration-none" href="" id="bdtx-sev">
+                                            <span>Contact</span></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class=" col-10 d-flex align-items-center mt-3">
+                        <div class="d-flex flex-md-row flex-column ms-4 d-flex justify-content-between w-100 px-lg-5">
+                            <p class="by-who ms-lg-5">Developed by <span style=" color: #6E50EC;">Luki</span> ©
+                                2023
+                            </p>
+                            <div class="d-flex flex-row">
+                                <p class="Term">Terms & Condition</p>
+                                <p class="Term">Privacy Policy</p>
                             </div>
                         </div>
                     </div>
