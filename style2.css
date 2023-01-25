@@ -356,7 +356,7 @@ color: #000000;
 @media (max-width: 992px){
     .h-of-hometags{
         margin-top: 50px;
-        height: 380px;
+        height: 450px;
     }
 }
 
@@ -467,7 +467,7 @@ color: #000000;
 }
 
 .Imadev-skill{
-    width: 127px;
+   
 height: 22px;
 left: 735px;
 top: 2084px;
@@ -777,3 +777,38 @@ line-height: 26px;
 color: rgba(143, 141, 162, 0.64);
 
     }
+.dc-btn{
+    font-size: 17px;
+                                width: 160px;
+                                height: 43px;
+                                background: #FFFFFF;
+                                transition: all 0.6s;
+}
+    .dc-btn:hover{
+        color: #F7F8FC;
+          background-color: #FF518E;
+    }
+
+    .print-cv:hover{
+         color: #565656;
+    }
+
+    .scroll{
+        display: flex;
+        overflow-x: auto;
+    }
+   .scroll::-webkit-scrollbar{
+    height: 5px;
+   } 
+   .scroll::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+   .scroll .item{
+    cursor: pointer;
+   
+     line-height: 110px;
+     text-align: center;
+    
+     margin-left: 2px;
+   }
