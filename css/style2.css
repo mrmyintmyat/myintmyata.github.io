@@ -178,8 +178,8 @@ background: #EF5D6D;
 }
 
 .main-img{
-    /* background: url("../img/main.png") no-repeat center;
-    background-size: cover; */
+    background: url("../img/main.png") no-repeat center;
+    background-size: cover;
 }
 
 .img-of-home{
