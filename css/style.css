@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Roboto:wght@300;400;700&display=swap');
+
+@import url('pg/variable.css');
+@import url('pg/home.css');
+@import url('pg/services.css');
+@import url('pg/myprojects.css');
+@import url('pg/contact.css');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
