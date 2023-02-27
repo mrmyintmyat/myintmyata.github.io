@@ -1,0 +1,101 @@
+.fa-brands::before{
+  font-size: 2rem;
+  color: rgba(0, 0, 0, 1);
+}
+
+.con-icons .fa-solid{
+    font-size: 2rem;
+}
+
+.con-icons{
+    width: 38px; 
+    height: 38px; 
+    line-height: 4.5rem;
+}
+
+.DEV-end{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 30px;
+    line-height: 35px;
+    font-variant: small-caps;
+    
+    color: #FFFFFF;
+}
+
+.a img:nth-child(1){
+    width: 18px;
+    height: 30px;
+}
+
+.ing{
+   
+        width: 32px;
+        height: 32px;
+   
+}
+
+.a{
+    width: 100%;
+}
+
+.line{
+    width: 4px; 
+    height: 30rem;
+}
+
+
+
+@media(max-width: 992px){
+    .line{
+        width: 90%; 
+        height: 5px;
+    }
+    
+}
+@media(max-width: 576px){
+    .HM{
+        font-size: 25px;
+     }
+ 
+     .DEV-end{
+         font-size: 22px;
+     }
+
+     .Ima{
+       font-size: 25px;
+     }
+
+     .dev{
+        font-size: 30px;
+     }
+     .bodytext-home{
+        font-size: 19px;
+       
+     }
+
+     .home{
+        height: 600px;
+     }
+
+     .sev-btn{
+        width: 130px;
+        height: 55px;
+     }
+
+     .con-btn{
+        width: 130px;
+        height: 55px;
+     }
+
+     .fs{
+        font-size: 20px;
+     }
+}
+
+/* @media(max-width: 1200px){
+.margin-sev{
+    margin-bottom: 0px;
+}
+} */

@@ -1,0 +1,12 @@
+:root{
+    /* Color */
+    --brand-color: #61ABFF;
+    --text-color:#555555;
+    --body-bg-color: #ffffff;
+
+    /* Size */
+    --body-text-font-size: 2.1rem;
+    --secondary-font-size: 1.3rem;
+    --line-height: 2.5rem;
+
+}

@@ -1,0 +1,120 @@
+ .pj-bg{
+    /* background: url("../../img/pj-bg.jpg");
+    background-size: cover; */
+         /* The image used */
+  background-image: url("../../img/pj-bg.jpg");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;      
+    /* height: 100%;
+    background: url("../../img/pj-bg.jpg") no-repeat center;
+    background-size: cover;
+
+    position: relative;
+    /* background: url("../../img/pj-bg.jpg") no-repeat ;
+    background-size: cover;
+    
+    height: 100%; */
+    /* opacity: 0; */
+    /* transition: all 2.6s ease-in-out; */
+
+} 
+.my-pj{
+    font-weight: 700;
+font-size: 35px;
+line-height: 41px;
+/* identical to box height */
+
+text-transform: uppercase;
+
+color: #FFFFFF;
+}
+.rounded-circle{
+    box-sizing: border-box;
+margin-left: 2em;
+width: 270px;
+height: 270px;
+
+border: 4px solid #D9D9D9;
+/* transition: all 6s; */
+}
+
+/* .rounded-circle:hover{
+    width: 310px;
+    height: 310px;
+    border: 0;
+    background: rgba(217, 217, 217, 0.5);
+} */
+
+.pj-icon{
+    width: 50px;
+height: 50px;
+left: 250px;
+top: 1856px;
+opacity: 0.5;
+color: #fff;
+}
+
+.pj-title{
+    font-weight: 400;
+font-size: 35px;
+line-height: 41px;
+/* identical to box height */
+
+text-align: center;
+text-transform: capitalize;
+color: #288DC7;
+}
+
+.body-pj{
+    /* body text */
+
+font-family: 'Roboto Slab';
+font-style: normal;
+font-weight: 400;
+font-size: 21px;
+line-height: 31px;
+/* or 148% */
+
+
+color: var(--body-bg-color);
+}
+
+/* animations_pj */
+.about_ani_show{
+    opacity: 1;
+}
+.first_pj{
+    margin-right: -50%;
+    opacity: 0;
+    transition: all 2.6s;
+}
+
+.pj_all .about_ani_show:nth-child(1){
+    opacity: 1;
+    margin-right: 0%;
+}
+
+.second_pj{
+    opacity: 0;
+    margin-left: -50%;
+    transition: all 2.6s;
+}
+
+.pj_all .about_ani_show:nth-child(2){
+    opacity: 1;
+    margin-left: 0%;
+}
+/* nav change animations */
+.pj_hide{
+    display: none;
+}
+
+.pj_show{
+    display: block;
+}
